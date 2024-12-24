@@ -1,0 +1,447 @@
+body{
+    
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#account{
+    cursor: pointer;
+}
+#header{
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    color: white;
+    margin: 10px;
+}
+#logo{
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+}
+#userThings{
+    display: flex;
+    width: 40%;
+}
+#userThings p{
+    margin: auto;
+    text-align: center;
+}
+#main{
+
+    height: 660px;
+    width: 95%; 
+    text-align: center;
+    margin: 20px auto; 
+    background-position-x: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+#main p{
+font-family: Arial, Helvetica, sans-serif
+}
+#bottom{
+    margin: auto;
+}
+#discoverButton{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: solid 1px rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+    margin: auto;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+}
+#discoverButton:hover{
+    background-color: black;
+    background-position: right bottom;
+    color: white;
+}
+h4{
+    font-size: 18px;
+    line-height: 0.5;
+}
+#aside{
+    display: flex;
+    margin: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    min-height: fit-content;
+    align-items: flex-start;
+}
+#aside div{
+    margin: auto;
+    height: fit-content;
+    min-height: 400px;
+    width: 20%;
+    border: solid 1px black;
+    transition: 0.4s;
+}
+#aside p{
+    text-wrap: wrap;
+}
+#first img, #second img, #third img {
+    width: 55%;
+    height: 40%;
+}
+#first,#second , #third {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+#opis {
+    background: black;
+    overflow: hidden;
+    height: 330px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#opis img{
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+#opis h1{
+    z-index: 1;
+    position: relative;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#zakupy{
+    height: 800px;
+    text-align: center;
+    color: rgb(205, 205, 205);
+    line-height: 1.5;
+    background-color: rgb(47, 101, 58);
+    font-size: larger;
+}
+#zakupy button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+
+}
+#zakupy p {
+     width: 50%;
+     font-size: 20px;
+     margin: auto;
+}
+#cart{
+    height: 650px;
+}
+#obiekty div{
+    border: 2px pink solid;
+    height: 340px;
+    width: 230px;
+    margin: 20px;
+    padding: 20px;
+}
+#obiekty{
+     display: flex;
+}
+#niespodzianka img {
+    width: 230px;
+    height: 300px;
+}
+#domek img {
+    width: 230px;
+    height: 300px;
+}
+#perskie img{
+    width: 230px;
+    height: 300px;
+}
+#wstecz, #next{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#obiekty{
+    margin: auto;
+}
+#goto{
+    text-align: center;
+    font-size: 13px;
+}
+#footer{
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#footerTOP {
+    display: flex;
+    height: 340px;
+    text-align: right;
+
+    
+}
+#footerTOP div{
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    font-size: 16px;
+    line-height: 2.2;
+    
+
+}
+#copyright{
+    text-align: center;
+}
+#modal{
+    width: 25%;
+    margin: auto;
+    height: 350px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    border: solid 0.3px gray;
+    border-radius: 40px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    overflow: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#userThings a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+#modalRegister{
+    width: 30%;
+    margin: auto;
+    height: 550px;
+    text-align: center;
+    padding: 19px;
+    border: solid 0.3px gray;
+    border-radius: 40px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+#modal input{
+    margin: 13px;
+    width: 80%;
+    height: 3vw;
+    font-size: large;
+    
+}
+#modalRegister input{
+    font-size: 18px;
+    height: 2vw;
+    margin: 10px;
+    width: 60%;
+    padding: 5px;
+
+}
+#labelka{
+    font-size: small;
+    cursor: pointer;
+}
+#modal h4, #modalRegister h4{
+    font-size:  27px;
+}
+#sup{
+    font-size: 12px;
+    margin: 0px;
+    cursor: pointer;
+}
+#btn2, #btn3{
+    width: 100px;
+    height: 30px;
+    border: solid 1px black ;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#twojeKonto{
+    margin: auto;
+    width: 30%;
+    height: 620px;
+    
+
+}
+#twojeKonto p{
+    font-size: 15px;
+    margin: 0;
+    color: gray;
+}
+.dane{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom:7px;
+}
+#img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+
+#shopping{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 140px;
+}
+
+
+.shopping-item {
+    border-radius: 5px;
+    text-align: center;
+    height: 33%;
+    width: 24%;
+    border: white 1px solid ;
+    margin: auto;
+}
+
+.shopping-item button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.shopping-item p {
+    margin: 5px 0;
+}
+
+.item-image {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+.shopping-item button{
+    margin: auto;
+    z-index: 1;
+    top: 10;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(34, 34, 34);
+    border: solid gray 1px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    display: block;
+}
+#allproducts{
+    text-align: center;
+    margin-top: 0;
+}
+#ourmost{
+    text-align: center;
+    color: rgb(0, 79, 0);
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#yy{
+    margin: 0;
+}
+
+#productsContainer {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    overflow: auto; 
+    max-height: 600px; 
+}
+
+
+#productsContainer div{
+    margin: auto;
+    line-height: 1.5;
+}
+
+
+.logo:nth-child(1){
+    transition-delay: 200ms;
+}
+.logo:nth-child(2){
+    transition-delay: 400ms;
+}
+.logo:nth-child(3){
+    transition-delay: 600ms;
+}
+.hidden{
+    opacity: 0;
+    transition: all 0.7s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.ayo{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media (prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+    
+}
+.delete {
+    border: 1px solid red;
+    background-color: rgb(255, 83, 83);
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 15%;
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+#rzeczPojedyncza {
+    margin: 0;
+    height: 60px;
+    width: 50%;
+    padding: 0 10px; 
+    text-align: center;
+}
